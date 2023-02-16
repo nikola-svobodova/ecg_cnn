@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 from basic_model.model import build_model
-from utils.help_functions import load_data
+from utils.prepare_dataset import load_data
 
 
 def train(X_train, y_train, X_val, y_val):

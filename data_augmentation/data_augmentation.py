@@ -20,7 +20,7 @@ import logging
 logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
-from utils.help_functions import load_data, num_of_types
+from utils.prepare_dataset import load_data, num_of_types
 from basic_model.model import build_model
 from data_augmentation.signal_transformation import scale, add_gaussian_noise, add_baseline_wander
 from utils.constants import MODELS

@@ -1,6 +1,7 @@
 TEST = '_test'
 VAL = '_val'
 TRAIN = '_train'
+SUPER_TEST = '_super_test'
 
 NUM_OF_SAMPLES = 4096
 BASE_COLOR = '#2A3132'

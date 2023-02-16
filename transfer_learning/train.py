@@ -20,7 +20,7 @@ import time
 logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w",
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
-from utils.help_functions import load_data, num_of_types
+from utils.prepare_dataset import load_data, num_of_types
 from utils.constants import MODELS, FEATURE_EXTRACTION, FINE_TUNING, FINALLY_RETRAIN, SMOTE_method, SIGNAL_TRANS, NONE
 from adjust_network import build_model, finally_retrain
 from data_augmentation.data_augmentation import data_augmentation, resample
